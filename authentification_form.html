@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Forms</title>
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/bootstrap.min-3.css" rel="stylesheet"> <!--load all styles -->
+</head>
+<body>
+
+  <div class="container">
+    <!-- Forms
+    ================================================== -->
+    <div class="bs-docs-section">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="page-header">
+            <h1 id="forms">Form</h1>
+          </div>
+        </div>
+      </div>
+    
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="bs-component">
+
+
+        <p class="bs-component">
+          <button type="button" class="btn btn-success">Se connecter</button>
+          <button type="button" class="btn btn-success">S'inscrire</button>
+          <button type="button" class="btn btn-primary">Se connecter avec facebook</button>
+          <button type="button" class="btn btn-info">Se connecter avec Twitter</button>
+          <button type="button" class="btn btn-warning">Warning</button>
+          <button type="button" class="btn btn-danger">Danger</button>
+          <button type="button" class="btn btn-link">Link</button>
+          <button type="button" class="btn btn-secondary">Secondary</button>
+
+
+            <form>
+              <fieldset>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Adresse email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Mot de Passe</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+                </div>
+
+                <fieldset class="form-group">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" value="" checked="">
+                    Se souvenir de moi
+                  </label>
+                </div>
+              </fieldset>
+
+                <div class="form-group">
+                  <label for="exampleSelect1">Selecteur</label>
+                  <select class="form-control" id="exampleSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleSelect2">Selecteur multiple</label>
+                  <select multiple="" class="form-control" id="exampleSelect2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleTextarea">Texte</label>
+                  <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputFile">Telechargement</label>
+                  <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                </div>
+            </form>
+          <button class="source-button btn btn-primary btn-xs" role="button" tabindex="0">&lt; &gt;</button></div>
+        </div>
+        <div class="col-lg-4 offset-lg-1">
+          <form class="bs-component">
+
+            <div class="form-group has-success">
+              <label class="form-control-label" for="inputValid">Champs validé</label>
+              <input type="text" value="Valide" class="form-control is-valid" id="inputValid">
+              <div class="valid-feedback">Bravo ! You did it !</div>
+            </div>
+
+            <div class="form-group has-danger">
+              <label class="form-control-label" for="inputInvalid">Champs invalide</label>
+              <input type="text" value="Invalide" class="form-control is-invalid" id="inputInvalid">
+              <div class="invalid-feedback">Votre mot de passe n'est pas valide</div>
+            </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
